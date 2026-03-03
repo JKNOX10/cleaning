@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sparkle & Shine Cleaning</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <div class="bg-blue-600 p-2 rounded-lg">
+                            <i data-lucide="sparkles" class="text-white w-6 h-6"></i>
+                        </div>
+                        <span class="text-xl font-bold tracking-tight text-slate-800">Sparkle<span class="text-blue-600">&</span>Shine</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="index.html#services" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Services</a>
+                    <a href="contact.html" class="text-sm font-semibold text-blue-600">Contact</a>
+                    <a href="index.html#contact" class="bg-blue-600 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-blue-700 transition-all shadow-md">Book Now</a>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="p-2 text-slate-600">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 py-4 space-y-3">
+            <a href="index.html" class="block text-base font-medium text-slate-600">Home</a>
+            <a href="index.html#services" class="block text-base font-medium text-slate-600">Services</a>
+            <a href="contact.html" class="block text-base font-semibold text-blue-600">Contact</a>
+            <a href="index.html#contact" class="block bg-blue-600 text-white text-center px-5 py-3 rounded-xl font-semibold">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="pt-32 pb-12 bg-white border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Get in Touch</h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">Have questions about our services or need a custom quote? Our team is here to help you create a cleaner, happier space.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-3 gap-12">
+                
+                <!-- Contact Info -->
+                <div class="lg:col-span-1 space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-6">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 shrink-0">
+                                    <i data-lucide="phone" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">Phone</p>
+                                    <p class="text-slate-600">(555) 123-4567</p>
+                                    <p class="text-xs text-slate-400">Mon-Fri 8am-6pm</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center text-cyan-600 shrink-0">
+                                    <i data-lucide="mail" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">Email</p>
+                                    <p class="text-slate-600">hello@sparkleclean.com</p>
+                                    <p class="text-xs text-slate-400">Response within 24 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center text-indigo-600 shrink-0">
+                                    <i data-lucide="map-pin" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">Office</p>
+                                    <p class="text-slate-600">123 Shine Avenue, Suite 400<br>Clean City, NY 10001</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-8 border-t border-slate-200">
+                        <h4 class="font-bold text-slate-900 mb-4">Follow Our Updates</h4>
+                        <div class="flex gap-4">
+                            <a href="#" class="w-10 h-10 bg-white border border-slate-200 rounded-full flex items-center justify-center text-slate-400 hover:text-blue-600 transition-colors"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                            <a href="#" class="w-10 h-10 bg-white border border-slate-200 rounded-full flex items-center justify-center text-slate-400 hover:text-blue-600 transition-colors"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                            <a href="#" class="w-10 h-10 bg-white border border-slate-200 rounded-full flex items-center justify-center text-slate-400 hover:text-blue-600 transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="lg:col-span-2">
+                    <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 p-8 md:p-12 border border-slate-100">
+                        <form id="contact-page-form" class="space-y-6">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="space-y-2">
+                                    <label class="text-sm font-semibold text-slate-700">First Name</label>
+                                    <input type="text" placeholder="Jane" required class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="text-sm font-semibold text-slate-700">Last Name</label>
+                                    <input type="text" placeholder="Doe" required class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
+                                </div>
+                            </div>
+                            
+                            <div class="space-y-2">
+                                <label class="text-sm font-semibold text-slate-700">Email Address</label>
+                                <input type="email" placeholder="jane@example.com" required class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
+                            </div>
+
+                            <div class="space-y-2">
+                                <label class="text-sm font-semibold text-slate-700">Subject</label>
+                                <select class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all appearance-none">
+                                    <option>General Inquiry</option>
+                                    <option>Quote Request</option>
+                                    <option>Employment Opportunity</option>
+                                    <option>Billing Question</option>
+                                </select>
+                            </div>
+
+                            <div class="space-y-2">
+                                <label class="text-sm font-semibold text-slate-700">Your Message</label>
+                                <textarea rows="5" placeholder="How can we help you?" required class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-blue-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-blue-700 transition-all shadow-lg active:scale-[0.99]">
+                                Send Message
+                            </button>
+                        </form>
+
+                        <div id="contact-success" class="hidden text-center p-12">
+                            <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                                <i data-lucide="check" class="text-green-600 w-10 h-10"></i>
+                            </div>
+                            <h4 class="text-2xl font-bold text-slate-900 mb-2">Message Sent!</h4>
+                            <p class="text-slate-500">Thank you for reaching out. A member of our team will contact you shortly.</p>
+                            <button onclick="location.reload()" class="mt-8 text-blue-600 font-bold hover:underline">Send another message</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="h-[400px] w-full bg-slate-200 rounded-[2.5rem] relative overflow-hidden group">
+                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=1200');"></div>
+                <div class="absolute inset-0 bg-blue-900/10"></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="bg-white p-6 rounded-2xl shadow-2xl flex items-center gap-4 border border-blue-50">
+                        <div class="bg-blue-600 p-3 rounded-xl">
+                            <i data-lucide="map-pin" class="text-white w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-slate-900">Main Office</h5>
+                            <p class="text-sm text-slate-500">Clean City, NY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-20 pb-10 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex flex-col items-center gap-6">
+                <div class="flex items-center gap-2">
+                    <div class="bg-blue-600 p-1.5 rounded-lg">
+                        <i data-lucide="sparkles" class="text-white w-5 h-5"></i>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight">Sparkle<span class="text-blue-600">&</span>Shine</span>
+                </div>
+                <div class="flex gap-8 text-sm text-slate-500">
+                    <a href="index.html" class="hover:text-blue-600 transition-colors">Home</a>
+                    <a href="index.html#services" class="hover:text-blue-600 transition-colors">Services</a>
+                    <a href="contact.html" class="hover:text-blue-600 transition-colors">Contact</a>
+                </div>
+                <p class="text-slate-400 text-xs mt-4">&copy; 2024 Sparkle & Shine Cleaning Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // Mobile Menu
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+        // Form Submission
+        const form = document.getElementById('contact-page-form');
+        const success = document.getElementById('contact-success');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            form.classList.add('hidden');
+            success.classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
